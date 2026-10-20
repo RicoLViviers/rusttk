@@ -1,0 +1,23 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/rusttk",
+    "crates/rusttk-window",
+    "crates/rusttk-input",
+    "crates/rusttk-gl",
+    "crates/rusttk-math",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/YOUR_USERNAME/rusttk"
+
+[workspace.dependencies]
+winit = "0.30"
+glutin = "0.32"
+glutin-winit = "0.5"
+raw-window-handle = "0.6"
+glam = "0.34.1"
+thiserror = "2"
